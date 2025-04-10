@@ -5,14 +5,19 @@ This project is built with Node.js using Express and includes a Dockerized setup
 ## 1. Clone the Repo 
 ```bash
 git clone https://github.com/Jisolp/fetchAssessment.git
+```
+
+## 2. Go into the folder 
+```bash 
 cd fetchAssessment
 ```
-## 2. Build Docker 
+
+## 3. Build Docker 
 ```bash 
 docker build -t receipt .
 ```
 
-## 3. Run 
+## 4. Run 
 ```bash
 docker run -p 3000:3000 receipt
 ```
