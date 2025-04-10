@@ -29,3 +29,6 @@ if port 3000 is already in use on your machine, you can map to
 docker run -p 4000:3000 receipt
 ```
 and it should run at http://localhost:4000
+
+_____
+Note: `exampleReceipt.json` is included in this repo for quick testing.
